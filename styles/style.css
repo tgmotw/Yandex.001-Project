@@ -7,25 +7,186 @@
   margin: 0 auto;
   /* выше для экранов больше 1600px отцентрировали весь контент */
   font-family: 'Helvetica Neue', Arial, sans-serif;
+  padding: 0;
 }
 
+p, h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  padding: 0;
+}
+/****************************************************/
+/*HEADER*/
+/*Ниже общая настройка блока*/
 .header {
   height: 100vh;
   min-height: 600px;
   max-height: 756px;
-  /* выше установили ограничения для секции */
+  background-color: rgb(235,235,235);;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+/*Ниже настройка логотипа*/
 }
-
-/* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
-.header__square-pic {
-  height: 568px;
+.header__logo{
+  position: absolute;
+  top: 30px;
+  left: 64px;
+}
+/*Ниже настройка главного заголовка*/
+.header__title{
+  margin-left: 64px;
+  width: 730px;
+  font-size: 102px;
+  line-height: 96px;
+}
+/*Ниже настройка подзаголовка*/
+.header__subtitle{
+  position: absolute;
+  left: 64px;
+  bottom: 30px;
+  width: 388px;
+  font-size: 18px;
+  line-height: 25px;
+  z-index: 2000;
+}
+/*Ниже настройка ссылки в подзаголовке*/
+.header__subtitle__link{
+  color: rgb(71,131,233);
+  text-decoration: none;
+}
+/*Ниже настройка главной иллюстрации заголовка*/
+.header__main-illustration{
+  position: absolute;
+  width: 765px;
+  height: 608px;
+  right: 0;
+  bottom: 0;
+  z-index: 1000;
+}
+/*Ниже настройка синего квадрата за дальней картиной*/
+.header__square-pic{
+  position: absolute;
+  right: 0;
+  top: 64px;
   width: 568px;
+  height: 568px;
+  background-color: rgb(38,104,231);
+}
+/****************************************************/
+/*MAIN*/
+/*Ниже общая настройка блока Main*/
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+/*Ниже настройка заголовков секций*/
+.main__section__title{
+  margin-top: 100px;
+  line-height: 115%;
+  font-size: 60px;
+  font-weight: bold;
+  text-align: center;
 }
 
-/* и элемента с модификатором вида ключ-значение */
-.table__cell_theme_dark {
-  width: 200px;
-  color: white;
-  margin-right: 0;
-  margin-top: 80px;
+.main__section__subtitle{
+  margin-top: 20px;
+  line-height: 34px;
+  font-size:24px;
+  font-weight: normal;
+  text-align: center;
 }
+/*Ниже общая настройка секцй блока*/
+.main__section{
+  margin-top: 100px;
+  display: flex;
+  flex-direction: row;
+  background-color: green;
+}
+/*MAIN.Description*/
+/*Ниже общая настройка секции*/
+.description{
+  width: 80%;
+}
+/*Ниже настройка брифа*/
+.description__brief{
+  width: 175px;
+  color: rgb(71,131,233);
+  line-height: 120%;
+  font-size: 18px;
+}
+/*Ниже настройка блока с параграфами основного текста*/
+.description__main-text{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  width: 80%;
+  min-width: 784px;
+  line-height: 34px;
+  font-size: 24px;
+}
+/*Ниже настройка параграфов основного текста*/
+.description__main-text__paragraph{
+
+}
+/*Ниже настройка марджина центрального параграфа*/
+.description__main-text__paragraph-margin{
+  margin: 30px 0;
+}
+.description__conclusion{
+  font-weight: bold;
+}
+/*MAIN.Techniques*/
+/*Ниже общая настройка секции*/
+.techniques {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 80%;
+}
+/*Ниже общие настройки блока карточек*/
+.techniques__cards{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 920px;
+}
+
+/*Ниже общие настройки отдельной карточки*/
+.techniques__cards__item{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 240px;
+  background-color: red;
+}
+
+.techniques__cards__item:nth-child(3n+2){
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.techniques__cards__item__image{
+  width: 160px;
+  height: 160px;
+  margin-top: 60px;
+}
+
+.techniques__cards__item__title{
+  margin-top: 43px;
+  line-height: 115%;
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.techniques__cards__item__description{
+  margin-top: 16px;
+  line-height: 23px;
+  font-size: 18px;
+  font-weight: normal;
+  text-align: center;
+}
+/****************************************************/
+
