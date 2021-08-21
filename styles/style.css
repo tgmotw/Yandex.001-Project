@@ -171,6 +171,7 @@ p, h1, h2, h3, h4, h5, h6 {
   width: 160px;
   height: 160px;
   margin-top: 60px;
+  border-radius: 50%;
 }
 
 .techniques__cards__item__title{
