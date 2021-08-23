@@ -57,6 +57,7 @@ p, h1, h2, h3, h4, h5, h6 {
   text-decoration: none;
 }
 /*Ниже настройка главной иллюстрации заголовка*/
+/*
 .header__main-illustration{
   position: absolute;
   width: 765px;
@@ -65,6 +66,8 @@ p, h1, h2, h3, h4, h5, h6 {
   bottom: 0;
   z-index: 1000;
 }
+*/
+
 /*Ниже настройка синего квадрата за дальней картиной*/
 .header__square-pic{
   position: absolute;
