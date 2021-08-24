@@ -1,22 +1,32 @@
+/*----------------------------------------------------------------------------*/
+/*Импортируем настройки переиспользуемых элементов и глобальных блоков*/
 @import url(../vendor/normalize.css);
 @import url(../blocks/page/page.css);
 @import url(../blocks/flex-row/flex-row.css);
 @import url(../blocks/flex-column/flex-column.css);
-
+@import url(../blocks/logo/logo.css);
+@import url(../blocks/logo/_place/logo_place_header.css);
+@import url(../blocks/logo/_theme/logo_theme_dark.css);
+@import url(../blocks/section-title/section-title.css);
+@import url(../blocks/section-subtitle/section-subtitle.css);
+/*----------------------------------------------------------------------------*/
+/*Импортируем настройки шапки*/
 @import url(../blocks/header/header.css);
 @import url(../blocks/header/__link/header__link.css);
 @import url(../blocks/header/__main-illustration/header__main-illustration.css);
 @import url(../blocks/header/__square-pic/header__square-pic.css);
 @import url(../blocks/header/__subtitle/header_subtitle.css);
 @import url(../blocks/header/__title/header__title.css);
-
+/*----------------------------------------------------------------------------*/
+/*Импортируем настройки main*/
 @import url(../blocks/content/content.css);
-
-@import url(../blocks/logo/logo.css);
-@import url(../blocks/logo/_place/logo_place_header.css);
-@import url(../blocks/logo/_theme/logo_theme_dark.css);
-
+/*----------------------------------------------------------------------------*/
+/*Импортируем настройки первой секции*/
 @import url(../blocks/two-columns/two-columns.css);
 @import url(../blocks/two-columns/__brief/two-columns__brief.css);
 @import url(../blocks/two-columns/__main-text/two-columns__main-text.css);
 @import url(../blocks/two-columns/__paragraph/two-colums__paragraph.css);
+@import url(../blocks/two-columns/__span-accent/two-columns__span-accent.css);
+/*----------------------------------------------------------------------------*/
+/*Импортируем настройки второй секции*/
+@import url(../blocks/two-columns/__span-accent/two-columns__span-accent.css);
