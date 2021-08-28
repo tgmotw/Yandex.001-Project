@@ -2,13 +2,21 @@
 /*Импортируем настройки переиспользуемых элементов и глобальных блоков*/
 @import url(../vendor/normalize.css);
 @import url(../blocks/page/page.css);
-@import url(../blocks/flex-row/flex-row.css);
-@import url(../blocks/flex-column/flex-column.css);
+
 @import url(../blocks/logo/logo.css);
 @import url(../blocks/logo/_place/logo_place_header.css);
 @import url(../blocks/logo/_theme/logo_theme_dark.css);
+
 @import url(../blocks/section-title/section-title.css);
 @import url(../blocks/section-subtitle/section-subtitle.css);
+@import url(../blocks/section-title/_theme/section-title_theme_dark.css);
+@import url(../blocks/section-subtitle/_theme/section-subtitle_theme_dark.css);
+
+@import url(../blocks/table/table.css);
+@import url(../blocks/table/__cell/table__cell.css);
+@import url(../blocks/table/__heading/table__heading.css);
+@import url(../blocks/table/__text/table__text.css);
+@import url(../blocks/table/_theme/table_theme_dark.css);
 /*----------------------------------------------------------------------------*/
 /*Импортируем настройки шапки*/
 @import url(../blocks/header/header.css);
@@ -21,12 +29,23 @@
 /*Импортируем настройки main*/
 @import url(../blocks/content/content.css);
 /*----------------------------------------------------------------------------*/
-/*Импортируем настройки первой секции*/
+/*Импортируем настройки первой секции Description*/
+@import url(../blocks/description/description.css);
 @import url(../blocks/two-columns/two-columns.css);
 @import url(../blocks/two-columns/__brief/two-columns__brief.css);
 @import url(../blocks/two-columns/__main-text/two-columns__main-text.css);
 @import url(../blocks/two-columns/__paragraph/two-colums__paragraph.css);
 @import url(../blocks/two-columns/__span-accent/two-columns__span-accent.css);
 /*----------------------------------------------------------------------------*/
-/*Импортируем настройки второй секции*/
-@import url(../blocks/two-columns/__span-accent/two-columns__span-accent.css);
+/*Импортируем настройки второй секции Techniques*/
+@import url(../blocks/techniques/techniques.css);
+@import url(../blocks/cards/cards.css);
+@import url(../blocks/cards/__item/cards__item.css);
+@import url(../blocks/cards/__title/cards__title.css);
+@import url(../blocks/cards/__image/cards__image.css);
+@import url(../blocks/cards/__description/cards__description.css);
+/*Импортируем настройки третьей секции Digits*/
+@import url(../blocks/digits/digits.css);
+/*Импортируем настройки третьей секции Kaufman*/
+@import url(../blocks/kaufman/kaufman.css);
+

@@ -1,4 +1,10 @@
 .cards{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
     width: 960px;
-    margin: 0 auto;
+}
+
+.cards >*:nth-child(3n+2){
+    margin: 0 100px;
 }

@@ -1,8 +1,10 @@
 .header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     position: relative;
     height: 100vh;
     min-height: 600px;
     max-height: 756px;
     background-color: #F2F2F2;
-    align-items: center;
 }

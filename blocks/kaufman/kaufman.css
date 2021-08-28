@@ -1,0 +1,13 @@
+.kaufman{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    background-color: #1D1D1D;
+    box-sizing: border-box;
+    padding: 90px;
+}
+
+.kaufman >*:nth-child(2){
+    margin-top: 20px;
+}

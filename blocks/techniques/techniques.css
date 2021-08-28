@@ -1,0 +1,10 @@
+.techniques{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+}
+
+.techniques >*:nth-child(2){
+    margin-top: 20px;
+}

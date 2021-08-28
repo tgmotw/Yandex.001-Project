@@ -1,0 +1,10 @@
+.table__cell{
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    color: inherit;
+}
+
+.table__cell >*:nth-child(n){
+    margin-top: 20px;
+}
