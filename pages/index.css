@@ -16,7 +16,6 @@
 @import url(../blocks/table/__cell/table__cell.css);
 @import url(../blocks/table/__heading/table__heading.css);
 @import url(../blocks/table/__text/table__text.css);
-@import url(../blocks/table/_theme/table_theme_dark.css);
 /*----------------------------------------------------------------------------*/
 /*Импортируем настройки шапки*/
 @import url(../blocks/header/header.css);
@@ -46,6 +45,21 @@
 @import url(../blocks/cards/__description/cards__description.css);
 /*Импортируем настройки третьей секции Digits*/
 @import url(../blocks/digits/digits.css);
-/*Импортируем настройки третьей секции Kaufman*/
+/*Импортируем настройки четвёртой секции Kaufman*/
 @import url(../blocks/kaufman/kaufman.css);
+@import url(../blocks/table/_mod/table_mod_child-margin.css);
+@import url(../blocks/table/__cell/_mod/table__cell_mod_width.css);
+@import url(../blocks/table/__heading/_theme/table__heading_theme_dark.css);
+@import url(../blocks/table/__text/_theme/table__text_theme_dark.css);
+/*Импортируем настройки пятой секции Resources*/
+@import url(../blocks/resources/resources.css);
+@import url(../blocks/resources/__logo-zone/resources__logo-zone.css);
+@import url(../blocks/resources/__logo/resources__logo.css);
+/*Импортируем настройки Футтера*/
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__columns/footer__columns.css);
+@import url(../blocks/logo/_theme/logo_theme_white.css);
+@import url(../blocks/logo/_place/logo_place_footer.css);
+@import url(../blocks/footer/__column/_content/footer__column_content_copyright.css);
+@import url(../blocks/footer/__author/footer__author.css);
 

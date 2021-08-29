@@ -1,0 +1,3 @@
+.table_mod_child-margin >*:nth-child(n){
+    margin-top: 80px;
+}

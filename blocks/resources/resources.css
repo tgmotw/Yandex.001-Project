@@ -1,0 +1,15 @@
+.resources{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding-bottom: 271px;
+}
+
+.resources >*:nth-child(2){
+    margin-top: 20px;
+}
+
+.resources >*:nth-child(3){
+    margin-top: 80px;
+}
